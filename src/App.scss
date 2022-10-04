@@ -1,20 +1,20 @@
 
 .video-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 20vh;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.future-finance{
+  padding-left: 20rem;
 }
 
 @media only screen and (min-width: 600px){
   .video-container{
-    padding-top: 45rem;
-    padding-bottom: 15rem;
+    // height: 1100px;
   }
 }
 .future-h1 {
-  font-size: 102px;
+  font-size: 80px;
   color: #200f0d;
   font-weight: bold;
 }
@@ -26,7 +26,6 @@
 .responsivevideo {
   opacity: 100%;
   border-radius: 100px 0px 0px 0px;
-  padding-bottom: 20rem;
 }
 .btn {
   border-radius: 0px 30px 0px 30px !important;
@@ -76,6 +75,9 @@
   color: red;
   cursor: pointer;
 }
+.FEPD-p{
+  text-align: justify;
+}
 .FEPD-p:hover {
   cursor: pointer;
 }
@@ -99,7 +101,7 @@
     border-radius: 0px 0px 0px 40px !important;
 }
 .cards{
-  width: 20rem !important;
+  // width: 20rem !important;
   height: 22rem !important;
   border-radius: 0px 0px 0px 20px !important;
 }
@@ -131,13 +133,16 @@
   background-color: orange;
   opacity: 50%;
 }
-
+.star-p{
+  text-align: justify;
+}
 .star-bg{
   background-image: url("./Media/star-img.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
-.star-p:hover{
+.hover-star:hover{
+  padding-left: 10px;
   border-left: 2px solid red;
   cursor: pointer;
 }
@@ -151,4 +156,20 @@
 }
 .nav-link:hover{
   border-bottom: 2px solid rgb(255, 153, 0);
+}
+
+
+.nav-content{
+  background-color: rgb(234, 233, 233);
+  border-radius: 0px 20px 0px 20px !important;
+  width: 500px;
+  display: none;
+  right: 0;
+}
+
+.header-nav-col .nav-item:hover .nav-content{
+  display: block;
+}
+.hover-nav:hover{
+  color: orange;
 }

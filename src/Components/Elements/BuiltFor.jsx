@@ -6,7 +6,9 @@ const BuiltFor = () => {
         <div className="container py-5">
         <div className="row">
           <div className="col-md-6 text-center">
+          <div data-aos="fade-down-right">
             <img className='img-fluid' src="assets/Arrow_home.svg" alt="box" />
+            </div>
           </div>
           <div className="col-md-6">
             <h2 className="power-h2">

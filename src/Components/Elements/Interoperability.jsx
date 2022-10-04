@@ -6,7 +6,9 @@ const Interoperability = () => {
       <div className="container py-5">
         <div className="row">
           <div className="col-md-6 text-center">
+          <div data-aos="fade-down">
             <img className='img-fluid' src="assets/Opened_Box.svg" alt="box" />
+            </div>
           </div>
           <div className="col-md-6">
             <h2 className="power-h2">

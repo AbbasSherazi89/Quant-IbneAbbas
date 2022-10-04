@@ -15,7 +15,9 @@ const DesignedFor = () => {
             </button>
           </div>
           <div className="col-md-6 text-center">
+          <div data-aos="fade-left">
             <img className='img-fluid' src="assets/arrow_door.svg" alt="box" />
+            </div>
           </div>
         </div>
       </div> 

@@ -6,7 +6,9 @@ const UnlockingPower = () => {
       <div className="container py-5 container2">
         <div className="row">
           <div className="col-md-6">
+          <div data-aos="flip-left">
             <img className='img-fluid' src="assets/Box_Row.svg" alt="door" />
+            </div>
           </div>
           <div className="col-md-6">
             <h2 className="power-h2">

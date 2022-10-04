@@ -15,7 +15,9 @@ const Developers = () => {
             </button>
           </div>
           <div className="col-md-6 text-center">
+          <div data-aos="zoom-in">
             <img className='img-fluid' src="assets/laptop.svg" alt="box" />
+            </div>
           </div>
         </div>
       </div>
