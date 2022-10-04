@@ -5,8 +5,7 @@ const Footer = () => {
     <>
       {/* Footer */}
       <footer className="text-center text-lg-start bg-light text-muted pt-5">
-      
-        <section className="">
+        <section>
           <div className="container text-center text-md-start mt-5">
             {/* Grid row */}
             <div className="row mt-3">
@@ -178,18 +177,26 @@ const Footer = () => {
                 </p>
                 <p>
                   <a href="/" className="text-reset">
-                   Contact
+                    Contact
                   </a>
                 </p>
               </div>
             </div>
           </div>
         </section>
-        <div
-          className="p-4"
-          style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
-        >
-         © 2022 Quant Network Limited. All rights reserved.
+        <div className=" horzontal-line ">
+          {" "}
+          <hr />{" "}
+        </div>
+        <div className="container p-4">
+          <div className="footer-img py-4 d-flex">
+            <img src="assets/Quant-Logo.png" alt=" " width={100} />
+            <div className="ms-auto d-flex">
+              <h5>Privacy policy</h5>
+              <h5 className="ps-5">Terms of use</h5>
+            </div>
+          </div>
+          © 2022 Quant Network Limited. All rights reserved.
         </div>
         {/* Copyright */}
       </footer>

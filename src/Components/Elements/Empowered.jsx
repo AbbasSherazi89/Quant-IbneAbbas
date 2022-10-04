@@ -3,11 +3,11 @@ import React from "react";
 const Empowered = () => {
   return (
     <>
-      <div className="container-fluid text-center py-5 container3">
+      <div className="container-fluid text-center container3">
         <div className="row">
           <div className="col">
             <h2 className="power-h2 text-white">An empowered, <br/> interconnected world</h2>
-            <p className="empower-p">
+            <p className="empower-p ms-2">
               We serve banks, asset managers and other financial institutions; <br/>
               enterprises; and the technology partners and <br/> fintech developers
               who support them.<br/>
