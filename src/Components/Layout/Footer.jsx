@@ -1,5 +1,5 @@
 import React from "react";
-
+import {BsTwitter, BsLinkedin } from "react-icons/bs";
 const Footer = () => {
   return (
     <>
@@ -189,18 +189,18 @@ const Footer = () => {
           <hr />{" "}
         </div>
         <div className="container p-4">
-          <div className="footer-img py-4 d-flex">
-            <img src="assets/Quant-Logo.png" alt=" " width={100} />
-            <div className="ms-auto d-flex">
-              <h5>Privacy policy</h5>
-              <h5 className="ps-5">Terms of use</h5>
-            </div>
-          </div>
+              <div className="container">
+                <div className="row pt-3 pb-3">
+                  <div className="col-md-2 pt-2"><img src="assets/Quant-Logo.png" alt=" " width={100} /></div>
+                  <div className="col-md-4 pt-2"></div>
+                  <div className="col-md-2 pt-2"><a className="fw-bold text-black text-decoration-none" href="/">Privacy policy</a></div>
+                  <div className="col-md-2 pt-2"><a className="fw-bold text-black text-decoration-none" href="/">Terms of use</a></div>
+                  <div className="col-md-2 pt-2"><a className="text-decoration-none" href="/"> <BsTwitter className="icons" /> <BsLinkedin className="icons" /></a></div> 
+                </div>
+              </div>
           © 2022 Quant Network Limited. All rights reserved.
         </div>
-        {/* Copyright */}
       </footer>
-      {/* Footer */}
     </>
   );
 };
