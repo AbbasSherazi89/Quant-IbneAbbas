@@ -8,8 +8,8 @@ const Empowered = () => {
           <div className="col">
             <h2 className="power-h2 text-white">An empowered, <br/> interconnected world</h2>
             <p className="empower-p ms-2">
-              We serve banks, asset managers and other financial institutions; <br/>
-              enterprises; and the technology partners and <br/> fintech developers
+              We serve banks, asset managers and other financial institutions; 
+              enterprises; and the technology partners and fintech developers
               who support them.<br/>
             </p>
             <button className="btn btn-outline-danger fw-bold text-black">
